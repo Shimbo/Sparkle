@@ -1835,6 +1835,9 @@
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
+					5AB8F19E214DA72000A1187F = {
+						ProvisioningStyle = Automatic;
+					};
 					612279D80DB5470200AB99EA = {
 						LastSwiftMigration = 0900;
 						TestTargetID = 8DC2EF4F0486A6940098B216;
@@ -2841,11 +2844,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 722954C81D04E89500ECF9CA /* ConfigFileop.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = HockeyappMacAlpha;
@@ -2861,6 +2860,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AB8F1A9214DA85900A1187F /* ConfigGenerateKeysRelease.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.2;
@@ -2871,6 +2871,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AB8F1A9214DA85900A1187F /* ConfigGenerateKeysRelease.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -2880,7 +2881,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941CC0D94A70100DD942E /* ConfigCommonRelease.xcconfig */;
 			buildSettings = {
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				CODE_SIGN_STYLE = Automatic;
 			};
 			name = ReleaseHockeyapp;
 		};
@@ -2888,12 +2889,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				SWIFT_VERSION = 3.0;
+				CODE_SIGN_STYLE = Automatic;
 			};
 			name = ReleaseHockeyapp;
 		};
@@ -2901,6 +2897,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
 			};
 			name = ReleaseHockeyapp;
 		};
@@ -2908,61 +2905,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA3AAF391050B273004B3130 /* ConfigUnitTestRelease.xcconfig */;
 			buildSettings = {
-			};
-			name = ReleaseHockeyapp;
-		};
-		D0FFCEC3215A912000995AFE /* ReleaseHockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D06E8F30FD68D21005AE3F6 /* ConfigBinaryDeltaRelease.xcconfig */;
-			buildSettings = {
-			};
-			name = ReleaseHockeyapp;
-		};
-		D0FFCEC4215A912000995AFE /* ReleaseHockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
-				ENABLE_HARDENED_RUNTIME = YES;
-				OTHER_CODE_SIGN_FLAGS = "--timestamp";
-			};
-			name = ReleaseHockeyapp;
-		};
-		D0FFCEC5215A912000995AFE /* ReleaseHockeyapp */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = ReleaseHockeyapp;
-		};
-		D0FFCEC6215A912000995AFE /* ReleaseHockeyapp */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = ReleaseHockeyapp;
-		};
-		D0FFCEC7215A912000995AFE /* ReleaseHockeyapp */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = ReleaseHockeyapp;
-		};
-		D0FFCEC8215A912000995AFE /* ReleaseHockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 729F11001C65A9B500DFCCC5 /* ConfigUITestRelease.xcconfig */;
-			buildSettings = {
-			};
-			name = ReleaseHockeyapp;
-		};
-		D0FFCEC9215A912000995AFE /* ReleaseHockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 722954C81D04E89500ECF9CA /* ConfigFileop.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = ReleaseHockeyapp;
@@ -2978,6 +2921,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AB8F1A9214DA85900A1187F /* ConfigGenerateKeysRelease.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.2;
@@ -2988,6 +2932,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AB8F1A9214DA85900A1187F /* ConfigGenerateKeysRelease.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
