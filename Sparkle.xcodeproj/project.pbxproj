@@ -1823,7 +1823,7 @@
 				ORGANIZATIONNAME = "Sparkle Project";
 				TargetAttributes = {
 					55C14BB6136EEF1500649790 = {
-						DevelopmentTeam = 6N38VWS5BX;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.HardenedRuntime = {
 								enabled = 1;
@@ -1848,7 +1848,7 @@
 					};
 					722954B31D04ADAF00ECF9CA = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 6N38VWS5BX;
+						ProvisioningStyle = Manual;
 					};
 					726B2B5C1C645FC900388755 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -2579,10 +2579,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = ReleaseAppStore;
 		};
@@ -2615,12 +2617,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 722954C81D04E89500ECF9CA /* ConfigFileop.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = ReleaseAppStore;
 		};
@@ -2697,10 +2701,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Github;
 		};
@@ -2733,12 +2739,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 722954C81D04E89500ECF9CA /* ConfigFileop.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Github;
 		};
@@ -2814,10 +2822,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = HockeyappMacAlpha;
 		};
@@ -2852,6 +2862,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = HockeyappMacAlpha;
 		};
@@ -2913,6 +2924,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = ReleaseHockeyapp;
 		};
@@ -2990,10 +3002,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = DebugHockeyapp;
 		};
@@ -3026,12 +3040,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 722954C81D04E89500ECF9CA /* ConfigFileop.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = DebugHockeyapp;
 		};
@@ -3108,10 +3124,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = DebugAppStore;
 		};
@@ -3144,18 +3162,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 722954C81D04E89500ECF9CA /* ConfigFileop.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = DebugAppStore;
 		};
 		D0FFCEE6215A915900995AFE /* DebugAppStore */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7205C4341E12C66D00E370AE /* ConfigGenerateAppcastRelease.xcconfig */;
+			baseConfigurationReference = 7205C4351E12CA7000E370AE /* ConfigGenerateAppcastDebug.xcconfig */;
 			buildSettings = {
 			};
 			name = DebugAppStore;
@@ -3193,7 +3213,7 @@
 				A74EB07B2379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		14732BC61960F69300593899 /* Build configuration list for PBXLegacyTarget "Distribution" */ = {
 			isa = XCConfigurationList;
@@ -3206,7 +3226,7 @@
 				A74EB07A2379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		14950060195FB89500BC5B5B /* Build configuration list for PBXAggregateTarget "All" */ = {
 			isa = XCConfigurationList;
@@ -3219,7 +3239,7 @@
 				A74EB07C2379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Sparkle" */ = {
 			isa = XCConfigurationList;
@@ -3232,7 +3252,7 @@
 				A74EB0752379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Sparkle" */ = {
 			isa = XCConfigurationList;
@@ -3245,7 +3265,7 @@
 				A74EB0742379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		55C14BBE136EEF1500649790 /* Build configuration list for PBXNativeTarget "Autoupdate" */ = {
 			isa = XCConfigurationList;
@@ -3258,7 +3278,7 @@
 				A74EB0792379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		5A5ADEDB214EDE4900DF0099 /* Build configuration list for PBXNativeTarget "sign_update" */ = {
 			isa = XCConfigurationList;
@@ -3271,7 +3291,7 @@
 				A74EB0812379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		5AA96C5C1E0AE0DC00CA4346 /* Build configuration list for PBXNativeTarget "generate_appcast" */ = {
 			isa = XCConfigurationList;
@@ -3284,7 +3304,7 @@
 				A74EB07F2379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		5AB8F1A3214DA72000A1187F /* Build configuration list for PBXNativeTarget "generate_keys" */ = {
 			isa = XCConfigurationList;
@@ -3297,7 +3317,7 @@
 				A74EB0802379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		5D06E8DA0FD68C95005AE3F6 /* Build configuration list for PBXNativeTarget "BinaryDelta" */ = {
 			isa = XCConfigurationList;
@@ -3310,7 +3330,7 @@
 				A74EB0782379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		612279DD0DB5470300AB99EA /* Build configuration list for PBXNativeTarget "Sparkle Unit Tests" */ = {
 			isa = XCConfigurationList;
@@ -3323,7 +3343,7 @@
 				A74EB0772379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		61B5F90509C4CEE300B25A18 /* Build configuration list for PBXNativeTarget "Sparkle Test App" */ = {
 			isa = XCConfigurationList;
@@ -3336,7 +3356,7 @@
 				A74EB0762379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		722954BB1D04ADAF00ECF9CA /* Build configuration list for PBXNativeTarget "fileop" */ = {
 			isa = XCConfigurationList;
@@ -3349,7 +3369,7 @@
 				A74EB07E2379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 		726B2B671C645FC900388755 /* Build configuration list for PBXNativeTarget "UI Tests" */ = {
 			isa = XCConfigurationList;
@@ -3362,7 +3382,7 @@
 				A74EB07D2379A095005F55AE /* ReleaseAppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = HockeyappMacAlpha;
+			defaultConfigurationName = DebugAppStore;
 		};
 /* End XCConfigurationList section */
 	};
